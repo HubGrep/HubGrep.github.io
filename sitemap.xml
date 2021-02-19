@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.hubrep.io/categories/</loc>
+    <loc>https://blog.hubrep.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://blog.hubrep.io/</loc>
+    <loc>https://blog.hubrep.io/</loc>
   </url>
   
   <url>
-    <loc>http://blog.hubrep.io/tags/</loc>
+    <loc>https://blog.hubrep.io/tags/</loc>
   </url>
   
 </urlset>
