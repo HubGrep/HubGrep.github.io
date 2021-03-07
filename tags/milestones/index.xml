@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HubGrep</title>
-    <link>https://blog.hubgrep.io/</link>
-    <description>Recent content on HubGrep</description>
+    <title>milestones on HubGrep</title>
+    <link>https://blog.hubgrep.io/tags/milestones/</link>
+    <description>Recent content in milestones on HubGrep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© HubGrep</copyright>
-    <lastBuildDate>Fri, 05 Mar 2021 16:14:50 +0100</lastBuildDate><atom:link href="https://blog.hubgrep.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 16:14:50 +0100</lastBuildDate><atom:link href="https://blog.hubgrep.io/tags/milestones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Status Update CW09 2021</title>
       <link>https://blog.hubgrep.io/posts/2021-03-05_status_update_cw09_2021/</link>
@@ -31,28 +31,6 @@ published (hopefully before) every second monday.&lt;/p&gt;</description>
 &lt;p&gt;This was part of a our &lt;a href=&#34;https://blog.hubgrep.io/posts/2021-03-05_status_update_cw09_2021&#34;&gt;first status post&lt;/a&gt;,
 but i think it makes sense to have it separate.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://blog.hubgrep.io/about/</link>
-      <pubDate>Sat, 20 Feb 2021 15:37:53 +0100</pubDate>
-      
-      <guid>https://blog.hubgrep.io/about/</guid>
-      <description>&lt;h2 id=&#34;we-make-a-search-engine-for-open-source-projects&#34;&gt;We make a search engine for open source projects!&lt;/h2&gt;
-&lt;p&gt;For many people, GitHub is the only place to go to host, or to look for open source code.&lt;br&gt;
-It&amp;rsquo;s so famous, that for some its even synonymous to to git - a version control system.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://blog.hubgrep.io/posts/2021-02-20_hello_world/</link>
-      <pubDate>Sat, 20 Feb 2021 15:37:53 +0100</pubDate>
-      
-      <guid>https://blog.hubgrep.io/posts/2021-02-20_hello_world/</guid>
-      <description>&lt;h2 id=&#34;we-make-a-search-engine-for-open-source-projects&#34;&gt;We make a search engine for open source projects!&lt;/h2&gt;
-&lt;p&gt;For many people, GitHub is the only place to go to host, or to look for open source code.&lt;br&gt;
-It&amp;rsquo;s so famous, that for some its even synonymous to to git - a version control system.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -7,7 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© HubGrep</copyright>
-    <lastBuildDate>Sat, 20 Feb 2021 15:37:53 +0100</lastBuildDate><atom:link href="https://blog.hubgrep.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 16:14:50 +0100</lastBuildDate><atom:link href="https://blog.hubgrep.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Status Update CW09 2021</title>
+      <link>https://blog.hubgrep.io/posts/2021-03-05_status_update_cw09_2021/</link>
+      <pubDate>Fri, 05 Mar 2021 16:14:50 +0100</pubDate>
+      
+      <guid>https://blog.hubgrep.io/posts/2021-03-05_status_update_cw09_2021/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;After a few weeks of &amp;ldquo;papierkrieg&amp;rdquo; we finally started into a &lt;a href=&#34;https://prototypefund.de/&#34;&gt;prototype fund&lt;/a&gt; funded 6 months of HubGrep development!&lt;/p&gt;
+&lt;p&gt;This is the first post in a series of status update posts,
+published (hopefully before) every second monday.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Our Milestones for the next 6 months</title>
+      <link>https://blog.hubgrep.io/posts/2021-03-07_milestones/</link>
+      <pubDate>Fri, 05 Mar 2021 13:45:10 +0100</pubDate>
+      
+      <guid>https://blog.hubgrep.io/posts/2021-03-07_milestones/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This was part of a our &lt;a href=&#34;https://blog.hubgrep.io/posts/2021-03-05_status_update_cw09_2021&#34;&gt;first status post&lt;/a&gt;,
+but i think it makes sense to have it separate.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://blog.hubgrep.io/posts/2021-02-20_hello_world/</link>
