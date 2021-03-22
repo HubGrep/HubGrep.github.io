@@ -1,54 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://blog.hubgrep.io/</loc>
-    <lastmod>2021-03-05T16:14:50+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-22T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://blog.hubgrep.io/tags/milestones/</loc>
-    <lastmod>2021-03-05T16:14:50+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-22T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://blog.hubgrep.io/posts/</loc>
-    <lastmod>2021-03-05T16:14:50+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-22T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.hubgrep.io/posts/2021-03-13_kw11/</loc>
+    <lastmod>2021-03-22T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.hubgrep.io/tags/statusupdate/</loc>
+    <lastmod>2021-03-22T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://blog.hubgrep.io/tags/</loc>
+    <lastmod>2021-03-22T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://blog.hubgrep.io/posts/2021-03-05_status_update_cw09_2021/</loc>
     <lastmod>2021-03-05T16:14:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.hubgrep.io/tags/statusupdate/</loc>
-    <lastmod>2021-03-05T16:14:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.hubgrep.io/tags/</loc>
-    <lastmod>2021-03-05T16:14:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.hubgrep.io/posts/2021-03-07_milestones/</loc>
     <lastmod>2021-03-05T13:45:10+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.hubgrep.io/about/</loc>
     <lastmod>2021-02-20T15:37:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.hubgrep.io/posts/2021-02-20_hello_world/</loc>
     <lastmod>2021-02-20T15:37:53+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.hubgrep.io/categories/</loc>
   </url>
-  
 </urlset>
