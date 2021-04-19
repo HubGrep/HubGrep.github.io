@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.hubgrep.io/</loc>
-    <lastmod>2021-04-04T19:58:32+02:00</lastmod>
+    <loc>https://blog.hubgrep.io/posts/2021-04-18_kw15/</loc>
+    <lastmod>2021-04-18T17:45:49+02:00</lastmod>
   </url><url>
-    <loc>https://blog.hubgrep.io/tags/milestones/</loc>
-    <lastmod>2021-04-04T19:58:32+02:00</lastmod>
+    <loc>https://blog.hubgrep.io/</loc>
+    <lastmod>2021-04-18T17:45:49+02:00</lastmod>
   </url><url>
     <loc>https://blog.hubgrep.io/posts/</loc>
+    <lastmod>2021-04-18T17:45:49+02:00</lastmod>
+  </url><url>
+    <loc>https://blog.hubgrep.io/tags/milestones/</loc>
     <lastmod>2021-04-04T19:58:32+02:00</lastmod>
   </url><url>
     <loc>https://blog.hubgrep.io/posts/2021-04-04-kw13/</loc>
