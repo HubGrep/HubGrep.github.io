@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Status Update CW17 2021 - Crawly slimy things - HubGrep</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Status Update CW17 2021 - Crawly slimy things" />
+<meta property="og:description" content="It feels like we&rsquo;ve been in a lull for the past 2 weeks" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.hubgrep.io/posts/2021-05-17_kw19/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-17T14:45:07&#43;02:00" />
+<meta property="article:modified_time" content="2021-05-17T14:45:07&#43;02:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Status Update CW17 2021 - Crawly slimy things"/>
+<meta name="twitter:description" content="It feels like we&rsquo;ve been in a lull for the past 2 weeks"/>
+<script src="https://blog.hubgrep.io/js/feather.min.js"></script>
+	
+	<link href="https://blog.hubgrep.io/css/fonts.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.hubgrep.io/css/main.css" /><link rel="stylesheet" type="text/css" href="https://blog.hubgrep.io/css/dark.css" media="(prefers-color-scheme: dark)" />
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://blog.hubgrep.io/">HubGrep</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts/">All posts</a>
+		
+		<a href="/about/">About</a>
+		
+		<a href="/tags/">Tags</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Status Update CW17 2021 - Crawly slimy things</h1>
+			<div class="meta">Posted on May 17, 2021</div>
+		</div>
+		
+
+		<section class="body">
+			<p>It feels like we&rsquo;ve been in a lull for the past 2 weeks</p>
+<p>, but that&rsquo;s likely because our current tasks provide less
+feedback and preview compared to before when we worked on smaller steps with immediate results, often affecting the
+frontend. I&rsquo;m telling myself its only a perceived lull anyway, until we get to plug things together and see the whole
+of it.</p>
+<h2 id="done">done</h2>
+<ul>
+<li>more planning than we had planned</li>
+<li>research search engines (and decided to start with sphinx-search)</li>
+<li>generate fake data to test search engine with</li>
+<li>research ways to crawl github, gitlab and gitea</li>
+</ul>
+<h2 id="doing">doing</h2>
+<ul>
+<li>implement crawlers</li>
+<li>test sphinx-search with fake data</li>
+</ul>
+<h2 id="motivations-and-challenges">motivations and challenges</h2>
+<p>When crawling for GitHub repository meta-data, and this might not be too surprising -
+they don&rsquo;t seem to be very interested in making it too easy for someone to extract their entire dataset.
+In their various API routes and entry-points they make sure to limit pagination to the first 1000 results if you use
+their search API in any form. So at 100 items per page you get 10 pages and then it stops.</p>
+<p>Another route exposes repositories directly with 100 items per request, and no pagination limit - but the downside is
+that each and every data-point on these repositories are hidden behind another url. So if there are 74 mil. public
+repositories at github (number from the graphql API), you can multiply that with around 20 (counting low) for how many
+requests you need to send to crawl for your data. Combined with rate-limiting this really blows up the time needed for a
+crawler to cycle through the dataset.</p>
+<p>So using the search API simply does not work. The second alternative which seems to be an intended way DOES work,
+though it&rsquo;s very inefficient. Another working solution that we found was to query for users and getting repositories
+tied to these users. Though not crucially so, this provokes additional requests per repository, as well as having
+overlap between users sharing the same repositories.</p>
+<p>Lastly, and what we use right now, is going via GitHubs graphql API and requesting repositories directly via IDs.
+This gives us 100 repositories per request, with the downside being that we have to guess at these IDs. Old deleted IDs
+are not reused which causes gaps in our incremental guessing, and at least for the first few thousands it seems that
+around 80% of IDs are missing. So we get around 20 repositories per request instead of 100, with hopefully a higher
+average over the whole dataset once we are through with a full cycle.</p>
+<p>Of course, there might be other ways to do what we want, which we simply didn&rsquo;t find. In fact, we tried to get tips from
+GitHub support on how best to do this, but were met with a response which seems as if they either didn&rsquo;t understand our
+question or didn&rsquo;t want to.</p>
+<p>A quick disclaimer - we understand that someone with a lot of data may not want to expose a
+&ldquo;download everything&rdquo;-button. There can be many reasons, aside from the ones we might be guessing at.</p>
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/HubGrep" title="GitHub"><i data-feather="github"></i></a>|⚡️
+	2021  © HubGrep |  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+<script>
+      feather.replace()
+</script></div>
+    </body>
+</html>
