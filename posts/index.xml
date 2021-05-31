@@ -14,8 +14,7 @@
       <pubDate>Tue, 25 May 2021 14:56:37 +0200</pubDate>
       
       <guid>https://blog.hubgrep.io/posts/2021-05-25_kw21/</guid>
-      <description>After we have been working more or less separatly on differnet topics, we finally had a longish talk about how to integrate our crawlers to a backend that collects the crawled data, and how we could integrate that data with our HubGrep search, as a local search backend.
-done  generating fake data to test, and learning sphinxsearch (still a long way to go) thinking about the changes we have to make to search, when we want to add our own search index (see motivations/challenges) more work on crawlers, talking about how to interface to a indexer backend for data collection started working on an indexer  doing  getting an initial version of the indexer up, connect the first crawler more crawlers!</description>
+      <description>&lt;p&gt;After we have been working more or less separatly on differnet topics, we finally had a longish talk about how to integrate our crawlers to a backend that collects the crawled data, and how we could integrate that data with our HubGrep search, as a local search backend.&lt;/p&gt;</description>
     </item>
     
     <item>
