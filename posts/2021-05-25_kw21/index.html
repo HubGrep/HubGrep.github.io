@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Status Update CW21 - Integrating stuff! - HubGrep</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Status Update CW21 - Integrating stuff!" />
+<meta property="og:description" content="After we have been working more or less separatly on differnet topics, we finally had a longish talk about how to integrate our crawlers to a backend that collects the crawled data, and how we could integrate that data with our HubGrep search, as a local search backend.
+done  generating fake data to test, and learning sphinxsearch (still a long way to go) thinking about the changes we have to make to search, when we want to add our own search index (see motivations/challenges) more work on crawlers, talking about how to interface to a indexer backend for data collection started working on an indexer  doing  getting an initial version of the indexer up, connect the first crawler more crawlers!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.hubgrep.io/posts/2021-05-25_kw21/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-25T14:56:37&#43;02:00" />
+<meta property="article:modified_time" content="2021-05-25T14:56:37&#43;02:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Status Update CW21 - Integrating stuff!"/>
+<meta name="twitter:description" content="After we have been working more or less separatly on differnet topics, we finally had a longish talk about how to integrate our crawlers to a backend that collects the crawled data, and how we could integrate that data with our HubGrep search, as a local search backend.
+done  generating fake data to test, and learning sphinxsearch (still a long way to go) thinking about the changes we have to make to search, when we want to add our own search index (see motivations/challenges) more work on crawlers, talking about how to interface to a indexer backend for data collection started working on an indexer  doing  getting an initial version of the indexer up, connect the first crawler more crawlers!"/>
+<script src="https://blog.hubgrep.io/js/feather.min.js"></script>
+	
+	<link href="https://blog.hubgrep.io/css/fonts.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.hubgrep.io/css/main.css" /><link rel="stylesheet" type="text/css" href="https://blog.hubgrep.io/css/dark.css" media="(prefers-color-scheme: dark)" />
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://blog.hubgrep.io/">HubGrep</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts/">All posts</a>
+		
+		<a href="/about/">About</a>
+		
+		<a href="/tags/">Tags</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Status Update CW21 - Integrating stuff!</h1>
+			<div class="meta">Posted on May 25, 2021</div>
+		</div>
+		
+
+		<section class="body">
+			<p>After we have been working more or less separatly on differnet topics, we finally had a longish talk about how to integrate our crawlers to a backend that collects the crawled data, and how we could integrate that data with our HubGrep search, as a local search backend.</p>
+<!-- raw HTML omitted -->
+<h2 id="done">done</h2>
+<ul>
+<li>generating fake data to test, and learning sphinxsearch (still a long way to go)</li>
+<li>thinking about the changes we have to make to search, when we want to add our own search index (see motivations/challenges)</li>
+<li>more work on crawlers, talking about how to interface to a indexer backend for data collection</li>
+<li>started working on an indexer</li>
+</ul>
+<h2 id="doing">doing</h2>
+<ul>
+<li>getting an initial version of the indexer up, connect the first crawler</li>
+<li>more crawlers!</li>
+</ul>
+<h2 id="motivations-and-challenges">motivations and challenges</h2>
+<p>tl;dr: There is a bigger topic coming up when we add an import from our (upcoming) indexer/crawler to HubGrep.</p>
+<p>We are still working on separate crawlers for all kinds of code hosters, collecting the results in an indexer, so that we can publish the complete repository metadata of all hosters separately.
+Afterwards, we want to add an import function to HubGrep: a HubGrep admin should be able to bootstrap a new, self-updating local search index from our indexing service - so that we dont rely on (sometimes really slow) metasearch.</p>
+<p>That changes our current workflow a lot: in theory, we dont need the users to add hosters to HubGrep instances, but to the indexer - but the admin still has to decide for hosters he wants to have indexed locally. (because, having a indexed copy of all of github could be huge)
+But we still want users to add new instances, so we probably forward users to the indexer, and let them add the instances there?</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/HubGrep" title="GitHub"><i data-feather="github"></i></a>|⚡️
+	2021  © HubGrep |  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+<script>
+      feather.replace()
+</script></div>
+    </body>
+</html>
