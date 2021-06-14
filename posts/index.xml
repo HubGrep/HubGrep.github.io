@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© HubGrep</copyright>
-    <lastBuildDate>Tue, 25 May 2021 14:56:37 +0200</lastBuildDate><atom:link href="https://blog.hubgrep.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 12:41:23 +0200</lastBuildDate><atom:link href="https://blog.hubgrep.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Status Update CW23 - More integration!</title>
+      <link>https://blog.hubgrep.io/posts/2021-06-14_kw23/</link>
+      <pubDate>Mon, 14 Jun 2021 12:41:23 +0200</pubDate>
+      
+      <guid>https://blog.hubgrep.io/posts/2021-06-14_kw23/</guid>
+      <description>&lt;p&gt;No big revelations today.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Status Update CW21 - Integrating stuff!</title>
       <link>https://blog.hubgrep.io/posts/2021-05-25_kw21/</link>
