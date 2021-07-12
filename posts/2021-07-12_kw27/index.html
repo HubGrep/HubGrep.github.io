@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Statusupdate CW27 - HubGrep</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Statusupdate CW27" />
+<meta property="og:description" content="Getting instant results from your own search index is pretty gratifying!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.hubgrep.io/posts/2021-07-12_kw27/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-12T11:51:12&#43;02:00" />
+<meta property="article:modified_time" content="2021-07-12T11:51:12&#43;02:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Statusupdate CW27"/>
+<meta name="twitter:description" content="Getting instant results from your own search index is pretty gratifying!"/>
+<script src="https://blog.hubgrep.io/js/feather.min.js"></script>
+	
+	<link href="https://blog.hubgrep.io/css/fonts.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.hubgrep.io/css/main.css" /><link rel="stylesheet" type="text/css" href="https://blog.hubgrep.io/css/dark.css" media="(prefers-color-scheme: dark)" />
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://blog.hubgrep.io/">HubGrep</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts/">All posts</a>
+		
+		<a href="/about/">About</a>
+		
+		<a href="/tags/">Tags</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Statusupdate CW27</h1>
+			<div class="meta">Posted on Jul 12, 2021</div>
+		</div>
+		
+
+		<section class="body">
+			<p>Getting instant results from your own search index is pretty gratifying!</p>
+<h2 id="done">done</h2>
+<ul>
+<li>experiment on how to export/import our data between the indexer and Sphinx - for speed</li>
+<li>automate exporting a our data to Sphinx</li>
+<li>configure Sphinx to use our data for searching with our (naive) ranking</li>
+<li>serve Sphinx results on HubGrep</li>
+<li>ingest crawler data in bulk</li>
+<li>add authentication (api-keys) for our crawler endpoints</li>
+<li>make bugs, kill bugs, tests, cleanup, dinner, sleep, shower, brush teeth&hellip;</li>
+</ul>
+<h2 id="challenges-and-what-were-doing">challenges and what we&rsquo;re doing</h2>
+<p>The past 2 weeks have been a bit of a stopwatch session, and it will continue. Since now we are starting
+to see concretely how long things can take; from crawlers retrieving data from somewhere online, to our
+indexer bottle-necking on data insertion when we have too many crawlers coming back at once, to exporting
+our unified data before giving it to Sphinx. On the whole, we want to be able to crawl and index an
+external repository hoster once per day, at minimum. This is only a question for us regarding GitHub,
+since all the rest are minuscule in comparison. Right now it looks doable with what we have, but we&rsquo;ve
+yet to actually do it so it remains to be seen. RAM is also a concern, since we&rsquo;re currently running
+our indexer on a Raspberry Pi 4 (4GB RAM). Lets avoid the &ldquo;why&rdquo; to that, and I&rsquo;ll instead say that it
+looks like its going to be alright&hellip; so far. We have a ballpark number for the total data that we will
+have and the data structure it will take in our database; and unless something scales horribly un-linear
+that will be alright as well!</p>
+<p>So that&rsquo;s the early victory dance out of the way, coming up next is the always recurring reality checks of
+&ldquo;things we didn&rsquo;t consider&rdquo;, bound to bite us in the ass. When that happens, it will now be by design.</p>
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/HubGrep" title="GitHub"><i data-feather="github"></i></a>|⚡️
+	2021  © HubGrep |  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+<script>
+      feather.replace()
+</script></div>
+    </body>
+</html>
